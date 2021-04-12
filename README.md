@@ -1,8 +1,21 @@
-<<<<<<< Updated upstream
 # Project Goal
 
-The project intends to layout the differences between setting up and querying MySQL vs Spark using the Twitter dataset that we have used in class. We will also use AWS RDS and EMR to accomplish the assignment. 
-=======
-# Maini_Evana_Twitter_Spark
-## Project Goal
-The goal of this project is to migrate the class Twitter dataset into AWS and use RDS and EMR to answer the same analytical questions. Through answering these questions, we will evaluate the queries and the process required between these two technologies. 
+The project intends to layout the differences between setting up and querying MySQL vs Spark using the Twitter dataset that we have used in class. We will also use AWS RDS and EMR to accomplish the assignment.
+
+## Analytical Questions
+
+Along with the implementation of the class Twitter dataset into AWS EMR and MySQL, we also answer several analytical questions to compare the query methodology between these two technologies. Here are the questions we answer: 
+
+Q1: Number of statuses by SpaceX account.
+
+Q2: Which users tweet the most? 
+
+Q3: Find the top 5 twitter users that are mentioned the most.
+
+Q4: How many statuses mention the phrase “SpaceX”?
+
+## EMR Implementation
+
+You can find the EMR implementation in the "EMR" directory. The directory includes the EMR Jupyter notebook used to read the raw data into Spark dataframes from S3, and answer the aforementioned 4 questions. Additionally, there is a bashscript used for bootstrapping the EMR instances. 
+
+## MySQL Implementation
