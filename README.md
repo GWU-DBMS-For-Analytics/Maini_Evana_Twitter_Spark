@@ -19,3 +19,10 @@ Q4: How many statuses mention the phrase “SpaceX”?
 You can find the EMR implementation in the "EMR" directory. The directory includes the EMR Jupyter notebook used to read the raw data into Spark dataframes from S3, and answer the aforementioned 4 questions. Additionally, there is a bashscript used for bootstrapping the EMR instances. 
 
 ## MySQL Implementation
+
+The required SQL scripts and implementations can be found in "SQL Data" directory.
+
+## AWS Implementation
+
+The required documentaion detailing the steps to connect to the AWS Aurora have been added to the "SQL Data" directory.
+
