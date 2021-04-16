@@ -10,7 +10,7 @@ Q1: Number of statuses by SpaceX account.
 
 Q2: Which users tweet the most? 
 
-Q3: Find the top 5 twitter users that are mentioned the most.
+Q3: Which Twitter users have the highest tweet to retweet ratio? 
 
 Q4: How many statuses mention the phrase “SpaceX”?
 
